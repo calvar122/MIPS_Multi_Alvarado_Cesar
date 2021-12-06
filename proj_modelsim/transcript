@@ -1,0 +1,1128 @@
+# Compile of ALU.sv failed with 15 errors.
+# Compile of DATA_PATH.sv failed with 4 errors.
+# Compile of DataPath.sv failed with 5 errors.
+# Compile of MU_MemorySystem.sv failed with 4 errors.
+# Compile of MU_MemoryUnit.sv failed with 4 errors.
+# Compile of MU_MUX.sv failed with 4 errors.
+# Compile of MU_my_pkg.sv was successful.
+# Compile of MU_RAM.sv was successful.
+# Compile of MU_ROM.sv was successful.
+# Compile of MUX2t1.sv failed with 4 errors.
+# Compile of MUX2t1_5B.sv failed with 4 errors.
+# Compile of MUX4t1.sv failed with 4 errors.
+# Compile of my_pkg.sv was successful.
+# Compile of pc.sv failed with 4 errors.
+# Compile of RF_bcd.sv failed with 7 errors.
+# Compile of RF_FFD.sv failed with 4 errors.
+# Compile of RF_FFD32.sv failed with 4 errors.
+# Compile of RF_mux32.sv failed with 4 errors.
+# Compile of RF_my_pkg.sv was successful.
+# Compile of RF_RegFile.sv was successful.
+# Compile of RF_TOP.sv was successful.
+# Compile of SHFF2.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of TB_DP.sv failed with 20 errors.
+# 24 compiles, 15 failed with 91 errors.
+# Compile of ALU.sv was successful.
+# Compile of MUX2t1.sv was successful.
+# Compile of RF_FFD32.sv was successful.
+# Compile of RF_mux32.sv was successful with warnings.
+# Compile of RF_bcd.sv was successful.
+# Compile of RF_FFD.sv was successful.
+# Compile of MUX4t1.sv was successful.
+# Compile of MU_MemoryUnit.sv was successful.
+# Compile of MU_MemorySystem.sv was successful.
+# Compile of MU_MUX.sv was successful.
+# Compile of MUX2t1_5B.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of DATA_PATH.sv was successful.
+# Compile of TB_DP.sv failed with 20 errors.
+# Compile of TB_DP.sv was successful.
+# Compile of TB_DP.sv failed with 1 errors.
+# Compile of TB_DP.sv was successful.
+vsim -gui work.TB_DP
+# vsim -gui work.TB_DP 
+# Start time: 01:11:36 on Dec 05,2021
+# Loading sv_std.std
+# Loading work.my_pkg
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# Loading work.DataPath
+# Loading work.RF_my_pkg
+# Loading work.pc
+# Loading work.MUX2t1
+# Loading work.MU_my_pkg
+# Loading work.MU_MemoryUnit
+# Loading work.MU_MemorySystem
+# Loading work.MU_ROM
+# Loading work.MU_RAM
+# Loading work.MU_MUX
+# Loading work.RF_FFD
+# Loading work.MUX2t1_5B
+# Loading work.RF_TOP
+# Loading work.RF_RegFile
+# Loading work.RF_bcd
+# Loading work.RF_FFD32
+# Loading work.RF_mux32
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.MUX4t1
+# Loading work.SHFF2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'OP_o'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'Funct_o'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALU_OUT_o'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 22
+# ** Error: (vsim-3063) Port 'ZERO' not found in the connected module (17th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 71
+# Error loading design
+# End time: 01:11:37 on Dec 05,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 29
+# Compile of TB_DP.sv failed with 1 errors.
+# Compile of TB_DP.sv was successful.
+vsim -gui work.TB_DP
+# vsim -gui work.TB_DP 
+# Start time: 01:17:49 on Dec 05,2021
+# Loading sv_std.std
+# Loading work.my_pkg
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# Loading work.DataPath
+# Loading work.RF_my_pkg
+# Loading work.pc
+# Loading work.MUX2t1
+# Loading work.MU_my_pkg
+# Loading work.MU_MemoryUnit
+# Loading work.MU_MemorySystem
+# Loading work.MU_ROM
+# Loading work.MU_RAM
+# Loading work.MU_MUX
+# Loading work.RF_FFD
+# Loading work.MUX2t1_5B
+# Loading work.RF_TOP
+# Loading work.RF_RegFile
+# Loading work.RF_bcd
+# Loading work.RF_FFD32
+# Loading work.RF_mux32
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.MUX4t1
+# Loading work.SHFF2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'OP_o'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'Funct_o'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALU_OUT_o'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 27
+# ** Error: (vsim-3063) Port 'ZERO' not found in the connected module (17th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 71
+# Error loading design
+# End time: 01:17:49 on Dec 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 9
+# Compile of TB_DP.sv was successful.
+CLEAR
+# invalid command name "CLEAR"
+lcear
+# invalid command name "lcear"
+clear
+# invalid command name "clear"
+clean
+cls
+# 
+vsim -gui work.TB_DP
+# vsim -gui work.TB_DP 
+# Start time: 01:20:03 on Dec 05,2021
+# Loading sv_std.std
+# Loading work.my_pkg
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# Loading work.DataPath
+# Loading work.RF_my_pkg
+# Loading work.pc
+# Loading work.MUX2t1
+# Loading work.MU_my_pkg
+# Loading work.MU_MemoryUnit
+# Loading work.MU_MemorySystem
+# Loading work.MU_ROM
+# Loading work.MU_RAM
+# Loading work.MU_MUX
+# Loading work.RF_FFD
+# Loading work.MUX2t1_5B
+# Loading work.RF_TOP
+# Loading work.RF_RegFile
+# Loading work.RF_bcd
+# Loading work.RF_FFD32
+# Loading work.RF_mux32
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.MUX4t1
+# Loading work.SHFF2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 71
+add wave -position end  sim:/TB_DP/TB_clk
+add wave -position end  sim:/TB_DP/TB_reset
+add wave -position end  sim:/TB_DP/TB_IorD_i
+add wave -position end  sim:/TB_DP/TB_MemWrite_i
+add wave -position end  sim:/TB_DP/TB_IRWrite_i
+add wave -position end  sim:/TB_DP/TB_RegDst_i
+add wave -position end  sim:/TB_DP/TB_MemtoReg_i
+add wave -position end  sim:/TB_DP/TB_RegWrite_i
+add wave -position end  sim:/TB_DP/TB_ALUSrcA_i
+add wave -position end  sim:/TB_DP/TB_PCSrc_i
+add wave -position end  sim:/TB_DP/TB_PCEn_i
+add wave -position end  sim:/TB_DP/TB_ALUSrcB_i
+add wave -position end  sim:/TB_DP/TB_ALUControl_i
+add wave -position end  sim:/TB_DP/TB_OP_o
+add wave -position end  sim:/TB_DP/TB_Funct_o
+add wave -position end  sim:/TB_DP/TB_ALU_OUT_o
+add wave -position end  sim:/TB_DP/TB_ZERO_f
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+run
+run
+run
+run
+run
+run
+run
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 71
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+run
+# Compile of TB_DP.sv was successful.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 71
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of DataPath.sv was successful.
+# Compile of DATA_PATH.sv was successful.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# Loading work.DataPath
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 71
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 72
+add wave -position 16  sim:/TB_DP/Scope_PC
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of DataPath.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of DATA_PATH.sv was successful.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# Loading work.DataPath
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'Scope_instr'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv(26).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV File: C:/PROJECTS/Architecture/DataPath/src/TB_DP.sv Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 73
+add wave -position end  sim:/TB_DP/Scope_instr
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 73
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 9 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 73
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 9 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 73
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 5 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of MU_ROM.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.MU_ROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 73
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 5 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of DataPath.sv was successful.
+# Compile of DATA_PATH.sv was successful.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# Loading work.DataPath
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+add wave -position end  sim:/TB_DP/Scope_srca
+add wave -position end  sim:/TB_DP/Scope_srcb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 5 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 3  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 3  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of DATA_PATH.sv was successful.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# Loading work.DATA_PATH
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 15 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv failed with 2 errors.
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 11 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 9 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 9 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 9 ps  Iteration: 3  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 5 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 7 ps  Iteration: 2  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 7 ps  Iteration: 3  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
+# Compile of TB_DP.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB_DP
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/Data File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg1 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 74
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_DP/my_DUV/DUV/RDReg2 File: C:/PROJECTS/Architecture/DataPath/src/DataPath.sv Line: 75
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 5  Process: /TB_DP/my_DUV/DUV/RegFile/UUT/mybcd/#implicit#priority__15 File: C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv Line: 15
