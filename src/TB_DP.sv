@@ -118,16 +118,132 @@ bit TB_ZERO_f;
 	#0	TB_RegWrite_i = 1;	//Habilitando register file (se guarda 3 en rt, "$t1")
 	
 	//Incrementado el PC
-	#2	TB_RegWrite_i = 0;		//deshabilitando register file write
+	#3	TB_RegWrite_i = 0;		//deshabilitando register file write
+	
+	
 	#0 TB_ALUSrcA_i = 0;			//seleccionando PC como SRCA en la ALU
 	#0 TB_ALUSrcB_i = 2'b01;	//Seleccionando 4 en srcb para incrementar el PC
 	
-	//Ahora a grabar el 4000004 en el PC
 	
-	#2 TB_PCSrc_i = 0; //Seleccionando ALU result del ultimo MUX
-	#0 TB_PCEn_i = 1;		//habilitando el PC
-	#4 TB_PCEn_i = 0;		//habilitando el PC
-	#0 TB_ALUSrcA_i = 1;	//seleccionando RF como SRCA en la ALU
+	//Ahora a grabar el 4000004 en el PC
+	//#2 TB_PCSrc_i = 0; //Seleccionando ALU result del ultimo MUX YA ESTABA ASI
+	#4 TB_PCEn_i = 1;		//habilitando el PC
+	#2 TB_PCEn_i = 0;		//des habilitando el PC
+	#0 TB_IorD_i = 0; //mux SELECCIONA pc 
+	//TB_MemWrite_i sigue en 0 modo rom
+	TB_IRWrite_i = 1; //habilitando reg inst pa guardar dir de memory
+	#2 TB_IRWrite_i = 0; //des-habilitando reg inst pa guardar dir de memory
+	//RegDst sigue en 0, dejar asi por ser instruccion I
+	//MemtoReg sigue en 0, dejar asi por ser instruccion I
+	#1	TB_RegWrite_i = 1;		//habilitando register file write
+	
+	
+	//ejecucion
+	#0 TB_ALUSrcA_i = 1;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b10;	//Seleccionando signext en srcb para incrementar el PC
+	
+	
+	////Incrementado el PC
+	#5	TB_RegWrite_i = 0;		//deshabilitando register file write
+	
+	
+	#0 TB_ALUSrcA_i = 0;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b01;	//Seleccionando 4 en srcb para incrementar el PC
+	
+	
+	//Ahora a grabar el 4000008 en el PC
+	//#2 TB_PCSrc_i = 0; //Seleccionando ALU result del ultimo MUX YA ESTABA ASI
+	#4 TB_PCEn_i = 1;		//habilitando el PC
+	#2 TB_PCEn_i = 0;		//des habilitando el PC
+	#0 TB_IorD_i = 0; //mux SELECCIONA pc 
+	//TB_MemWrite_i sigue en 0 modo rom
+	TB_IRWrite_i = 1; //habilitando reg inst pa guardar dir de memory
+	#2 TB_IRWrite_i = 0; //des-habilitando reg inst pa guardar dir de memory
+	//RegDst sigue en 0, dejar asi por ser instruccion I
+	//MemtoReg sigue en 0, dejar asi por ser instruccion I
+	#1	TB_RegWrite_i = 1;		//habilitando register file write
+	
+	//ejecucion
+	#0 TB_ALUSrcA_i = 1;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b10;	//Seleccionando signext en srcb para incrementar el PC
+	
+	
+	
+	/////////COMENZANDO ADD\\\\\\\\\\\
+	////Incrementado el PC
+	#5	TB_RegWrite_i = 0;		//deshabilitando register file write
+	
+	
+	#0 TB_ALUSrcA_i = 0;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b01;	//Seleccionando 4 en srcb para incrementar el PC
+	
+	
+	
+	//Ahora a grabar el 400000C en el PC
+	//#2 TB_PCSrc_i = 0; //Seleccionando ALU result del ultimo MUX YA ESTABA ASI
+	#4 TB_PCEn_i = 1;		//habilitando el PC
+	#2 TB_PCEn_i = 0;		//des habilitando el PC
+	#0 TB_IorD_i = 0; //mux SELECCIONA pc 
+	//TB_MemWrite_i sigue en 0 modo rom
+	TB_IRWrite_i = 1; //habilitando reg inst pa guardar dir de memory
+	#2 TB_IRWrite_i = 0; //des-habilitando reg inst pa guardar dir de memory
+	//LO SIGUIENTE CAMBIA PUES YA ES FORMATO R
+	#2 TB_RegDst_i = 1; //cambiar a 1, por ser instruccion R(guardar en rd)
+	
+	#0 TB_ALUSrcA_i = 1;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b00;	//Seleccionando 4 en srcb para incrementar el PC
+	//MemtoReg sigue en 0, dejar asi por que vamos a guardar lo de la ALU en rd
+	#2	TB_RegWrite_i = 1;		//habilitando register file write
+	
+	///////////////////instruccion 5
+	////Incrementado el PC
+	#2	TB_RegWrite_i = 0;		//deshabilitando register file write
+	
+	
+	#0 TB_ALUSrcA_i = 0;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b01;	//Seleccionando 4 en srcb para incrementar el PC
+	//Ahora a grabar el 4000010 en el PC
+	//#2 TB_PCSrc_i = 0; //Seleccionando ALU result del ultimo MUX YA ESTABA ASI
+	#4 TB_PCEn_i = 1;		//habilitando el PC
+	#2 TB_PCEn_i = 0;		//des habilitando el PC
+	#0 TB_IorD_i = 0; //mux SELECCIONA pc 
+	//TB_MemWrite_i sigue en 0 modo rom
+	TB_IRWrite_i = 1; //habilitando reg inst pa guardar dir de memory
+	#2 TB_IRWrite_i = 0; //des-habilitando reg inst pa guardar dir de memory
+	//LO SIGUIENTE CAMBIA PUES YA ES FORMATO R
+	#2 TB_RegDst_i = 1; //cambiar a 1, por ser instruccion R(guardar en rd)
+	
+	#0 TB_ALUSrcA_i = 1;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b00;	//Seleccionando 4 en srcb para incrementar el PC
+	//MemtoReg sigue en 0, dejar asi por que vamos a guardar lo de la ALU en rd
+	#2	TB_RegWrite_i = 1;		//habilitando register file write
+	
+	///////////////////instruccion 6
+	////Incrementado el PC
+	#2	TB_RegWrite_i = 0;		//deshabilitando register file write
+	
+	
+	#0 TB_ALUSrcA_i = 0;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b01;	//Seleccionando 4 en srcb para incrementar el PC
+	//Ahora a grabar el 4000014 en el PC
+	//#2 TB_PCSrc_i = 0; //Seleccionando ALU result del ultimo MUX YA ESTABA ASI
+	#4 TB_PCEn_i = 1;		//habilitando el PC
+	#2 TB_PCEn_i = 0;		//des habilitando el PC
+	#0 TB_IorD_i = 0; //mux SELECCIONA pc 
+	//TB_MemWrite_i sigue en 0 modo rom
+	TB_IRWrite_i = 1; //habilitando reg inst pa guardar dir de memory
+	#2 TB_IRWrite_i = 0; //des-habilitando reg inst pa guardar dir de memory
+	//LO SIGUIENTE CAMBIA PUES YA ES FORMATO R
+	#2 TB_RegDst_i = 1; //cambiar a 1, por ser instruccion R(guardar en rd)
+	
+	#0 TB_ALUSrcA_i = 1;			//seleccionando PC como SRCA en la ALU
+	#0 TB_ALUSrcB_i = 2'b00;	//Seleccionando 4 en srcb para incrementar el PC
+	//MemtoReg sigue en 0, dejar asi por que vamos a guardar lo de la ALU en rd
+	#2	TB_RegWrite_i = 1;		//habilitando register file write
+	
+	
+	
+	/*#0 TB_ALUSrcA_i = 1;	//seleccionando RF como SRCA en la ALU
 	#0 TB_ALUSrcB_i = 2'b00;	//Seleccionando RF como SRCB en la alu
 	
 	//Haciendo que PC entre a memory unit
@@ -222,7 +338,7 @@ bit TB_ZERO_f;
 	#0 TB_ALUSrcA_i = 1; //mux srca en 1 para elegir salida de RF a la ALU
 	#0 TB_ALUSrcB_i = 2'b00; //mux srcb en 00 para elegir las dos salidas del RF
 	#0 TB_ALUControl_i = 3'b000; //Operacion ADD addi
-
+*/
 end		
  
 endmodule
