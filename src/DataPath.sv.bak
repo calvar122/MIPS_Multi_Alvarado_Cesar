@@ -1,0 +1,27 @@
+//Data path
+
+`ifndef DATAPATH_SV
+ `define DATAPATH_SV
+ 
+ module DataPath
+ import my_pkg::*;
+ (
+ input bit 	IorD_i,
+				MemWrite_i,
+				IRWrite_i,
+				RegDst,
+				MemtoReg_i,
+				RegWrite_i,
+				ALUSrcA_i,
+				PCSrc_i,
+				PCWrite_i
+input bit [1:0] ALUSrcB,
+input bit [2:0] ALUControl,
+output logic [DATA_WIDTH-1:0] Instr
+ );
+ 
+ //RF_FFD ProgCounter();
+ 
+ endmodule
+ 
+ `endif

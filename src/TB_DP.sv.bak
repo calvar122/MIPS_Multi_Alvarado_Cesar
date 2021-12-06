@@ -1,0 +1,45 @@
+//TB DataPath
+
+`ifndef TB_DP_SV
+ `define TB_DP_SV
+
+program TB_DP;
+import my_pkg::*;
+ input 	TB_IorD_i;
+			TB_MemWrite_i;
+			TB_IRWrite_i;
+			TB_RegDst_i;
+			TB_MemtoReg_i;
+			TB_RegWrite_i;
+			TB_ALUSrcA_i;
+			TB_PCSrc_i;
+			TB_PCEn_i;
+input  [1:0] TB_ALUSrcB_i;
+input  [2:0] TB_ALUControl_i;
+input 	TB_clk;
+input 	TB_reset;
+output logic [5:0] TB_OP_o;
+output logic [5:0] TB_Funct_o;
+output bit TB_ZERO_f;
+
+ DP
+ DUV(	.IorD_i(TB_IorD_i), 
+		.MemWrite_i(TB_MemWrite_i), 
+		.IRWrite_i(TB_IRWrite_i), 
+		.RegDst_i(TB_RegDst_i), 
+		.MemtoReg_i(TB_MemtoReg_i),
+		.RegWrite_i(TB_RegWrite_i), 
+		.ALUSrcA_i(TB_ALUSrcA_i),  
+		.PCSrc_i(TB_PCSrc_i), 
+		.PCEn_i(TB_PCEn_i), 
+		.ALUSrcB_i(TB_ALUSrcB_i),
+		.ALUControl_i(TB_ALUControl_i), 
+		.clk(TB_clk), 
+		.reset(TB_reset), 
+		.OP_o(TB_OP_o), 
+		.Funct_o(TB_Funct_o), 
+		.ZERO(TB_ZERO_f)
+ );
+
+endprogram
+`endif

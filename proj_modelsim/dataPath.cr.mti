@@ -1,0 +1,183 @@
+C:/PROJECTS/Architecture/DataPath/src/RF_RegFile.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_RegFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF_RegFile
+-- Importing package RF_my_pkg
+
+Top level modules:
+	RF_RegFile
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/RF_mux32.sv {2 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_mux32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF_mux32
+-- Importing package RF_my_pkg
+** Warning: C:/PROJECTS/Architecture/DataPath/src/RF_mux32.sv(9): (vlog-13314) Defaulting port 'in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	RF_mux32
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/DataPath.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/DataPath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+-- Importing package my_pkg
+
+Top level modules:
+	DataPath
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MU_ROM.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MU_ROM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MU_ROM
+-- Importing package MU_my_pkg
+
+Top level modules:
+	MU_ROM
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_bcd.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF_bcd
+-- Importing package RF_my_pkg
+
+Top level modules:
+	RF_bcd
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/SHFF2.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/SHFF2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SHFF2
+-- Importing package my_pkg
+
+Top level modules:
+	SHFF2
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MU_RAM.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MU_RAM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MU_RAM
+-- Importing package MU_my_pkg
+
+Top level modules:
+	MU_RAM
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MUX2t1.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MUX2t1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2t1
+-- Importing package my_pkg
+
+Top level modules:
+	MUX2t1
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/ALU.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/ALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+-- Importing package my_pkg
+
+Top level modules:
+	ALU
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MU_MemoryUnit.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MU_MemoryUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MU_MemoryUnit
+-- Importing package MU_my_pkg
+
+Top level modules:
+	MU_MemoryUnit
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MUX4t1.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MUX4t1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4t1
+-- Importing package my_pkg
+
+Top level modules:
+	MUX4t1
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/DATA_PATH.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DATA_PATH
+-- Importing package my_pkg
+
+Top level modules:
+	DATA_PATH
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/RF_my_pkg.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_my_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package RF_my_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_FFD.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF_FFD
+-- Importing package RF_my_pkg
+
+Top level modules:
+	RF_FFD
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/my_pkg.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/my_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package my_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MU_MemorySystem.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MU_MemorySystem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MU_MemorySystem
+-- Importing package MU_my_pkg
+
+Top level modules:
+	MU_MemorySystem
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MUX2t1_5B.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MUX2t1_5B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2t1_5B
+-- Importing package my_pkg
+
+Top level modules:
+	MUX2t1_5B
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MU_my_pkg.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MU_my_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package MU_my_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/SignExtend.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/SignExtend.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SignExtend
+-- Importing package my_pkg
+
+Top level modules:
+	SignExtend
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/RF_TOP.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_TOP.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF_TOP
+-- Importing package RF_my_pkg
+
+Top level modules:
+	RF_TOP
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/pc.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/pc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+-- Importing package RF_my_pkg
+
+Top level modules:
+	pc
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/MU_MUX.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/MU_MUX.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MU_MUX
+-- Importing package MU_my_pkg
+
+Top level modules:
+	MU_MUX
+
+} {} {}} C:/PROJECTS/Architecture/DataPath/src/RF_FFD32.sv {1 {vlog -work work -sv -stats=none C:/PROJECTS/Architecture/DataPath/src/RF_FFD32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RF_FFD32
+-- Importing package RF_my_pkg
+
+Top level modules:
+	RF_FFD32
+
+} {} {}}

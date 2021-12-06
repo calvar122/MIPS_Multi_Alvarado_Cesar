@@ -1,0 +1,915 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+
+// DATE "12/04/2021 00:08:58"
+
+// 
+// Device: Altera 10M50DAF484C7G Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module SHFF2 (
+	in,
+	out);
+input 	[31:0] in;
+output 	[31:0] out;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \in[30]~input_o ;
+wire \in[31]~input_o ;
+wire \out[0]~output_o ;
+wire \out[1]~output_o ;
+wire \out[2]~output_o ;
+wire \out[3]~output_o ;
+wire \out[4]~output_o ;
+wire \out[5]~output_o ;
+wire \out[6]~output_o ;
+wire \out[7]~output_o ;
+wire \out[8]~output_o ;
+wire \out[9]~output_o ;
+wire \out[10]~output_o ;
+wire \out[11]~output_o ;
+wire \out[12]~output_o ;
+wire \out[13]~output_o ;
+wire \out[14]~output_o ;
+wire \out[15]~output_o ;
+wire \out[16]~output_o ;
+wire \out[17]~output_o ;
+wire \out[18]~output_o ;
+wire \out[19]~output_o ;
+wire \out[20]~output_o ;
+wire \out[21]~output_o ;
+wire \out[22]~output_o ;
+wire \out[23]~output_o ;
+wire \out[24]~output_o ;
+wire \out[25]~output_o ;
+wire \out[26]~output_o ;
+wire \out[27]~output_o ;
+wire \out[28]~output_o ;
+wire \out[29]~output_o ;
+wire \out[30]~output_o ;
+wire \out[31]~output_o ;
+wire \in[0]~input_o ;
+wire \in[1]~input_o ;
+wire \in[2]~input_o ;
+wire \in[3]~input_o ;
+wire \in[4]~input_o ;
+wire \in[5]~input_o ;
+wire \in[6]~input_o ;
+wire \in[7]~input_o ;
+wire \in[8]~input_o ;
+wire \in[9]~input_o ;
+wire \in[10]~input_o ;
+wire \in[11]~input_o ;
+wire \in[12]~input_o ;
+wire \in[13]~input_o ;
+wire \in[14]~input_o ;
+wire \in[15]~input_o ;
+wire \in[16]~input_o ;
+wire \in[17]~input_o ;
+wire \in[18]~input_o ;
+wire \in[19]~input_o ;
+wire \in[20]~input_o ;
+wire \in[21]~input_o ;
+wire \in[22]~input_o ;
+wire \in[23]~input_o ;
+wire \in[24]~input_o ;
+wire \in[25]~input_o ;
+wire \in[26]~input_o ;
+wire \in[27]~input_o ;
+wire \in[28]~input_o ;
+wire \in[29]~input_o ;
+
+
+fiftyfivenm_io_obuf \out[0]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[0]~output .bus_hold = "false";
+defparam \out[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[1]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[1]~output .bus_hold = "false";
+defparam \out[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[2]~output (
+	.i(\in[0]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[2]~output .bus_hold = "false";
+defparam \out[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[3]~output (
+	.i(\in[1]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[3]~output .bus_hold = "false";
+defparam \out[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[4]~output (
+	.i(\in[2]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[4]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[4]~output .bus_hold = "false";
+defparam \out[4]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[5]~output (
+	.i(\in[3]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[5]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[5]~output .bus_hold = "false";
+defparam \out[5]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[6]~output (
+	.i(\in[4]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[6]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[6]~output .bus_hold = "false";
+defparam \out[6]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[7]~output (
+	.i(\in[5]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[7]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[7]~output .bus_hold = "false";
+defparam \out[7]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[8]~output (
+	.i(\in[6]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[8]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[8]~output .bus_hold = "false";
+defparam \out[8]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[9]~output (
+	.i(\in[7]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[9]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[9]~output .bus_hold = "false";
+defparam \out[9]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[10]~output (
+	.i(\in[8]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[10]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[10]~output .bus_hold = "false";
+defparam \out[10]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[11]~output (
+	.i(\in[9]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[11]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[11]~output .bus_hold = "false";
+defparam \out[11]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[12]~output (
+	.i(\in[10]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[12]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[12]~output .bus_hold = "false";
+defparam \out[12]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[13]~output (
+	.i(\in[11]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[13]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[13]~output .bus_hold = "false";
+defparam \out[13]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[14]~output (
+	.i(\in[12]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[14]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[14]~output .bus_hold = "false";
+defparam \out[14]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[15]~output (
+	.i(\in[13]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[15]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[15]~output .bus_hold = "false";
+defparam \out[15]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[16]~output (
+	.i(\in[14]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[16]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[16]~output .bus_hold = "false";
+defparam \out[16]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[17]~output (
+	.i(\in[15]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[17]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[17]~output .bus_hold = "false";
+defparam \out[17]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[18]~output (
+	.i(\in[16]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[18]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[18]~output .bus_hold = "false";
+defparam \out[18]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[19]~output (
+	.i(\in[17]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[19]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[19]~output .bus_hold = "false";
+defparam \out[19]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[20]~output (
+	.i(\in[18]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[20]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[20]~output .bus_hold = "false";
+defparam \out[20]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[21]~output (
+	.i(\in[19]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[21]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[21]~output .bus_hold = "false";
+defparam \out[21]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[22]~output (
+	.i(\in[20]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[22]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[22]~output .bus_hold = "false";
+defparam \out[22]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[23]~output (
+	.i(\in[21]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[23]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[23]~output .bus_hold = "false";
+defparam \out[23]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[24]~output (
+	.i(\in[22]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[24]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[24]~output .bus_hold = "false";
+defparam \out[24]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[25]~output (
+	.i(\in[23]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[25]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[25]~output .bus_hold = "false";
+defparam \out[25]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[26]~output (
+	.i(\in[24]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[26]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[26]~output .bus_hold = "false";
+defparam \out[26]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[27]~output (
+	.i(\in[25]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[27]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[27]~output .bus_hold = "false";
+defparam \out[27]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[28]~output (
+	.i(\in[26]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[28]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[28]~output .bus_hold = "false";
+defparam \out[28]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[29]~output (
+	.i(\in[27]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[29]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[29]~output .bus_hold = "false";
+defparam \out[29]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[30]~output (
+	.i(\in[28]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[30]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[30]~output .bus_hold = "false";
+defparam \out[30]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \out[31]~output (
+	.i(\in[29]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\out[31]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \out[31]~output .bus_hold = "false";
+defparam \out[31]~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[0]~input (
+	.i(in[0]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[0]~input_o ));
+// synopsys translate_off
+defparam \in[0]~input .bus_hold = "false";
+defparam \in[0]~input .listen_to_nsleep_signal = "false";
+defparam \in[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[1]~input (
+	.i(in[1]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[1]~input_o ));
+// synopsys translate_off
+defparam \in[1]~input .bus_hold = "false";
+defparam \in[1]~input .listen_to_nsleep_signal = "false";
+defparam \in[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[2]~input (
+	.i(in[2]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[2]~input_o ));
+// synopsys translate_off
+defparam \in[2]~input .bus_hold = "false";
+defparam \in[2]~input .listen_to_nsleep_signal = "false";
+defparam \in[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[3]~input (
+	.i(in[3]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[3]~input_o ));
+// synopsys translate_off
+defparam \in[3]~input .bus_hold = "false";
+defparam \in[3]~input .listen_to_nsleep_signal = "false";
+defparam \in[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[4]~input (
+	.i(in[4]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[4]~input_o ));
+// synopsys translate_off
+defparam \in[4]~input .bus_hold = "false";
+defparam \in[4]~input .listen_to_nsleep_signal = "false";
+defparam \in[4]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[5]~input (
+	.i(in[5]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[5]~input_o ));
+// synopsys translate_off
+defparam \in[5]~input .bus_hold = "false";
+defparam \in[5]~input .listen_to_nsleep_signal = "false";
+defparam \in[5]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[6]~input (
+	.i(in[6]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[6]~input_o ));
+// synopsys translate_off
+defparam \in[6]~input .bus_hold = "false";
+defparam \in[6]~input .listen_to_nsleep_signal = "false";
+defparam \in[6]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[7]~input (
+	.i(in[7]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[7]~input_o ));
+// synopsys translate_off
+defparam \in[7]~input .bus_hold = "false";
+defparam \in[7]~input .listen_to_nsleep_signal = "false";
+defparam \in[7]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[8]~input (
+	.i(in[8]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[8]~input_o ));
+// synopsys translate_off
+defparam \in[8]~input .bus_hold = "false";
+defparam \in[8]~input .listen_to_nsleep_signal = "false";
+defparam \in[8]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[9]~input (
+	.i(in[9]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[9]~input_o ));
+// synopsys translate_off
+defparam \in[9]~input .bus_hold = "false";
+defparam \in[9]~input .listen_to_nsleep_signal = "false";
+defparam \in[9]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[10]~input (
+	.i(in[10]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[10]~input_o ));
+// synopsys translate_off
+defparam \in[10]~input .bus_hold = "false";
+defparam \in[10]~input .listen_to_nsleep_signal = "false";
+defparam \in[10]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[11]~input (
+	.i(in[11]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[11]~input_o ));
+// synopsys translate_off
+defparam \in[11]~input .bus_hold = "false";
+defparam \in[11]~input .listen_to_nsleep_signal = "false";
+defparam \in[11]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[12]~input (
+	.i(in[12]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[12]~input_o ));
+// synopsys translate_off
+defparam \in[12]~input .bus_hold = "false";
+defparam \in[12]~input .listen_to_nsleep_signal = "false";
+defparam \in[12]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[13]~input (
+	.i(in[13]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[13]~input_o ));
+// synopsys translate_off
+defparam \in[13]~input .bus_hold = "false";
+defparam \in[13]~input .listen_to_nsleep_signal = "false";
+defparam \in[13]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[14]~input (
+	.i(in[14]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[14]~input_o ));
+// synopsys translate_off
+defparam \in[14]~input .bus_hold = "false";
+defparam \in[14]~input .listen_to_nsleep_signal = "false";
+defparam \in[14]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[15]~input (
+	.i(in[15]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[15]~input_o ));
+// synopsys translate_off
+defparam \in[15]~input .bus_hold = "false";
+defparam \in[15]~input .listen_to_nsleep_signal = "false";
+defparam \in[15]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[16]~input (
+	.i(in[16]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[16]~input_o ));
+// synopsys translate_off
+defparam \in[16]~input .bus_hold = "false";
+defparam \in[16]~input .listen_to_nsleep_signal = "false";
+defparam \in[16]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[17]~input (
+	.i(in[17]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[17]~input_o ));
+// synopsys translate_off
+defparam \in[17]~input .bus_hold = "false";
+defparam \in[17]~input .listen_to_nsleep_signal = "false";
+defparam \in[17]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[18]~input (
+	.i(in[18]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[18]~input_o ));
+// synopsys translate_off
+defparam \in[18]~input .bus_hold = "false";
+defparam \in[18]~input .listen_to_nsleep_signal = "false";
+defparam \in[18]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[19]~input (
+	.i(in[19]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[19]~input_o ));
+// synopsys translate_off
+defparam \in[19]~input .bus_hold = "false";
+defparam \in[19]~input .listen_to_nsleep_signal = "false";
+defparam \in[19]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[20]~input (
+	.i(in[20]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[20]~input_o ));
+// synopsys translate_off
+defparam \in[20]~input .bus_hold = "false";
+defparam \in[20]~input .listen_to_nsleep_signal = "false";
+defparam \in[20]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[21]~input (
+	.i(in[21]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[21]~input_o ));
+// synopsys translate_off
+defparam \in[21]~input .bus_hold = "false";
+defparam \in[21]~input .listen_to_nsleep_signal = "false";
+defparam \in[21]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[22]~input (
+	.i(in[22]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[22]~input_o ));
+// synopsys translate_off
+defparam \in[22]~input .bus_hold = "false";
+defparam \in[22]~input .listen_to_nsleep_signal = "false";
+defparam \in[22]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[23]~input (
+	.i(in[23]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[23]~input_o ));
+// synopsys translate_off
+defparam \in[23]~input .bus_hold = "false";
+defparam \in[23]~input .listen_to_nsleep_signal = "false";
+defparam \in[23]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[24]~input (
+	.i(in[24]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[24]~input_o ));
+// synopsys translate_off
+defparam \in[24]~input .bus_hold = "false";
+defparam \in[24]~input .listen_to_nsleep_signal = "false";
+defparam \in[24]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[25]~input (
+	.i(in[25]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[25]~input_o ));
+// synopsys translate_off
+defparam \in[25]~input .bus_hold = "false";
+defparam \in[25]~input .listen_to_nsleep_signal = "false";
+defparam \in[25]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[26]~input (
+	.i(in[26]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[26]~input_o ));
+// synopsys translate_off
+defparam \in[26]~input .bus_hold = "false";
+defparam \in[26]~input .listen_to_nsleep_signal = "false";
+defparam \in[26]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[27]~input (
+	.i(in[27]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[27]~input_o ));
+// synopsys translate_off
+defparam \in[27]~input .bus_hold = "false";
+defparam \in[27]~input .listen_to_nsleep_signal = "false";
+defparam \in[27]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[28]~input (
+	.i(in[28]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[28]~input_o ));
+// synopsys translate_off
+defparam \in[28]~input .bus_hold = "false";
+defparam \in[28]~input .listen_to_nsleep_signal = "false";
+defparam \in[28]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[29]~input (
+	.i(in[29]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[29]~input_o ));
+// synopsys translate_off
+defparam \in[29]~input .bus_hold = "false";
+defparam \in[29]~input .listen_to_nsleep_signal = "false";
+defparam \in[29]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[30]~input (
+	.i(in[30]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[30]~input_o ));
+// synopsys translate_off
+defparam \in[30]~input .bus_hold = "false";
+defparam \in[30]~input .listen_to_nsleep_signal = "false";
+defparam \in[30]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \in[31]~input (
+	.i(in[31]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\in[31]~input_o ));
+// synopsys translate_off
+defparam \in[31]~input .bus_hold = "false";
+defparam \in[31]~input .listen_to_nsleep_signal = "false";
+defparam \in[31]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign out[0] = \out[0]~output_o ;
+
+assign out[1] = \out[1]~output_o ;
+
+assign out[2] = \out[2]~output_o ;
+
+assign out[3] = \out[3]~output_o ;
+
+assign out[4] = \out[4]~output_o ;
+
+assign out[5] = \out[5]~output_o ;
+
+assign out[6] = \out[6]~output_o ;
+
+assign out[7] = \out[7]~output_o ;
+
+assign out[8] = \out[8]~output_o ;
+
+assign out[9] = \out[9]~output_o ;
+
+assign out[10] = \out[10]~output_o ;
+
+assign out[11] = \out[11]~output_o ;
+
+assign out[12] = \out[12]~output_o ;
+
+assign out[13] = \out[13]~output_o ;
+
+assign out[14] = \out[14]~output_o ;
+
+assign out[15] = \out[15]~output_o ;
+
+assign out[16] = \out[16]~output_o ;
+
+assign out[17] = \out[17]~output_o ;
+
+assign out[18] = \out[18]~output_o ;
+
+assign out[19] = \out[19]~output_o ;
+
+assign out[20] = \out[20]~output_o ;
+
+assign out[21] = \out[21]~output_o ;
+
+assign out[22] = \out[22]~output_o ;
+
+assign out[23] = \out[23]~output_o ;
+
+assign out[24] = \out[24]~output_o ;
+
+assign out[25] = \out[25]~output_o ;
+
+assign out[26] = \out[26]~output_o ;
+
+assign out[27] = \out[27]~output_o ;
+
+assign out[28] = \out[28]~output_o ;
+
+assign out[29] = \out[29]~output_o ;
+
+assign out[30] = \out[30]~output_o ;
+
+assign out[31] = \out[31]~output_o ;
+
+endmodule
